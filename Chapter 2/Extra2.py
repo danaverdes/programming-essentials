@@ -39,9 +39,7 @@ print(f"Your birthday is {day}/{month}/{year}.")
 
 # ex 3
 letter = input("Enter your letter: ")
-vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
-
-if letter in vowels:
+if letter in ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]:
     print("Vowel")
 elif letter == "y":
     print("Exception")

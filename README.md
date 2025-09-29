@@ -7,3 +7,5 @@ Completed:
 * Exercises
 * Extra Exercises
 * Challenge
+### Chapter 3
+* Exercises

@@ -73,7 +73,7 @@
 #         elif num < smallestNum:
 #             smallestNum = num
 #         num = int(input("Enter a number: "))
-#     print("The difference between:", largestNum, "and the smallest", smallestNum, "=", largestNum - smallestNum)
+#     print("The difference between:"1, largestNum, "and the smallest", smallestNum, "=", largestNum - smallestNum)
 
 # ex 6
 # num = int(input("Enter a number: "))

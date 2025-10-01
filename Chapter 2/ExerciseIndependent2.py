@@ -187,7 +187,7 @@ else:
     print("You lose :3")
 
 # ex 14
-curr_day = input("Enter the current day: ").capitalize() #added capitalization so monday or Monday either work
+curr_day = input("Enter the current day: ").capitalize() # added capitalization so monday or Monday either work
 work_day = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
 weekend = ["Saturday", "Sunday"]
 value = ""

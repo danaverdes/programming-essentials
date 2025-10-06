@@ -109,6 +109,15 @@
 #
 # sentence = " ".join(sentence.split(" ")[::-1])
 # print(sentence)
+# ex 4.11
+# text = input("Enter a text: ")
+# if "x" in text and "y" in text:
+#     if text.index("x") < text.index("y"):
+#         print("In this text every x is followed by a y.")
+#     else:
+#         print("In this text not every x is followed by a y.")
+# else:
+#     print("In this text not every x is followed by a y.")
 
 # ex 4.12
 # sentence = input("Enter a string: ")

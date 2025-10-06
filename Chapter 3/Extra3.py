@@ -43,15 +43,15 @@
 #         print("Take one down, drink it up,", endBottle - 1, "bottles of beer on the wall.")
 
 # ex 7.5
-# num1 = 1
-# num2 = 1
-# oldOne = 1
-# print(num1)
-# while num2 < 1000:
-#     print(num2)
-#     oldOne = num1
-#     num1 = num2
-#     num2 = oldOne + num1
+num1 = 1
+num2 = 1
+oldOne = 1
+print(num1)
+while num2 < 1000:
+    print(num2)
+    oldOne = num1
+    num1 = num2
+    num2 = oldOne + num1
 
 # ex 7.6
 word1 = input("Enter a word: ").lower()

@@ -90,16 +90,16 @@
 #     print("this word does not contain \'in\'")
 
 # ex 4.9
-# lunch = input("What do you eat for lunch: ").lower()
-# location = lunch.find("sandwich")
-# lunch = lunch[location:]
-# nospace = lunch.replace(" ", "")
-# sandwichCount = nospace.count("sandwich")
-# if sandwichCount >= 2:
-#     topping = lunch.replace("sandwich", "")
-#     print("You have", topping, "between your sandwich")
-# else:
-#     print()
+lunch = input("What do you eat for lunch: ").lower()
+location = lunch.find("sandwich")
+lunch = lunch[location:]
+nospace = lunch.replace(" ", "")
+sandwichCount = nospace.count("sandwich")
+if sandwichCount >= 2:
+    topping = lunch.replace("sandwich", "")
+    print("You have", topping, "between your sandwich")
+else:
+    print()
 
 # ex 4.10
 # sentence = ""
